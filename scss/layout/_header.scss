@@ -1,0 +1,47 @@
+header {
+  width: 100%;
+  position: fixed;
+  background-color: #0c111f;
+  z-index: 9999;
+  nav {
+    @extend %flex;
+    justify-content: space-between;
+    height: 94px;
+    ul {
+      @extend %flex;
+      gap: 40px;
+      color: white;
+      li{
+        a{
+          font-family: Inter-Medium;
+          font-size: 18px;
+        }
+      }
+      li::after{
+        width: 100px;
+        height: 2px;
+        background-image: linear-gradient(279.69deg, #00796D 0%, #38C682 100%);
+
+      }
+
+      li::after:hover{
+        height: 2px;
+        background-image: linear-gradient(279.69deg, #00796D 0%, #38C682 100%);
+        
+        
+      }
+      
+     
+    }
+    button {
+      width: 134px;
+      height: 56px;
+      border-radius: 100px;
+      background-image: linear-gradient(279.69deg, #00796d 30%, #38c681c0 70%);
+      border:none;
+      font-family: Inter-Medium;
+      font-size: 16px;
+      color: white;
+    }
+  }
+}

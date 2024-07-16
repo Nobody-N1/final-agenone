@@ -1,0 +1,120 @@
+footer {
+  background-image: url(../../assets/icons/Union.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 735px;
+  margin: -655px auto;
+  .wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 80px;
+    .firstpart {
+      width: 1080px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #3D414C;
+      padding-bottom: 40px;
+      h6 {
+        width: 600px;
+        font-family: Inter-Semibold;
+        font-size: 44px;
+        color: #ffffff;
+      }
+      button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 168px;
+        height: 68px;
+        background: linear-gradient(279.69deg, #00796d 0%, #38c682 100%);
+        border: none;
+        outline: none;
+        cursor: pointer;
+        border-radius: 100px;
+        padding: 20px 24px 20px 32px;
+        gap: 8px;
+        font-family: Inter-Medium;
+        font-size: 18px;
+        color: #ffffff;
+      }
+    }
+    .bottom {
+      width: 1280px;
+      height: 256px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 140px;
+      .left {
+        width: 413px;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        flex-direction: column;
+        p {
+          font-family: Inter-Regular;
+          font-size: 18px;
+          color: #b6b8bc;
+          margin: 25px 0 40px;
+        }
+        h6 {
+          font-family: Inter-Medium;
+          font-size: 18px;
+          color: #b6b8bc;
+        }
+      }
+      .right {
+        width: 575px;
+        .nav {
+          display: flex;
+          justify-content: space-between;
+          ul {
+          display: flex;
+          flex-direction: column;
+          gap: 24px;
+            li {
+              h3 {
+                font-family: Inter-Bold;
+                font-size: 18px;
+                color: #ffffff;
+              }
+              a {
+                color: #b6b8bc;
+                font-family: Inter-Regular;
+                font-size: 18px;
+              }
+            }
+            &:first-child {
+              width: 79px;
+            }
+            &:nth-child(2) {
+              width: 144px;
+            }
+            &:nth-child(3) {
+              width: 112px;
+            }
+          }
+        }
+      }
+    }
+    .copyright {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      width: 1280px;
+      border-top: 1px solid #3d414c;
+      margin-top: 40px;
+      padding: 40px;
+      h3 {
+        font-family: Inter-Regular;
+        font-size: 18px;
+        color: #b6b8bc;
+      }
+    }
+  }
+}
